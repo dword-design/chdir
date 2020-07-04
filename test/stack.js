@@ -8,7 +8,7 @@ test('push undefined', function (t) {
     chdir.push();
     
     process.chdir('/tmp');
-    t.equal(process.cwd(), '/tmp');
+    t.equal(process.cwd(), '/private/tmp');
     
     chdir.pop();
     t.equal(process.cwd(), cwd);
