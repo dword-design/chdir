@@ -1,38 +1,35 @@
 {
-    "name" : "chdir",
-    "description" : "process.chdir() in a callback plus directory stacks",
-    "version" : "0.0.0",
-    "repository" : {
-        "type" : "git",
-        "url" : "git://github.com/substack/node-chdir.git"
-    },
-    "main" : "index.js",
-    "keywords" : [
-        "cwd",
-        "pwd",
-        "pushd",
-        "popd",
-        "directory"
-    ],
-    "directories" : {
-        "lib" : ".",
-        "example" : "example",
-        "test" : "test"
-    },
-    "scripts" : {
-        "test" : "tap test/*.js"
-    },
-    "dependencies" : {},
-    "devDependencies" : {
-        "tap" : "0.1.x"
-    },
-    "engines" : {
-        "node" : ">=0.4.0"
-    },
-    "license" : "MIT",
-    "author" : {
-        "name" : "James Halliday",
-        "email" : "mail@substack.net",
-        "url" : "http://substack.net"
-    }
+  "name": "@dword-design/chdir",
+  "version": "2.0.0",
+  "description": "",
+  "keywords": [
+    "cwd",
+    "pwd",
+    "pushd",
+    "popd",
+    "directory"
+  ],
+  "repository": "dword-design/node-chdir",
+  "license": "MIT",
+  "author": "Sebastian Landwehr <info@dword-design.de>",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "commit": "base commit",
+    "dev": "base dev",
+    "lint": "base lint",
+    "prepare": "base prepare",
+    "prepublishOnly": "base prepublishOnly",
+    "test": "base test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@dword-design/base": "^6.20.2",
+    "delay": "^4.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
