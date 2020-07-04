@@ -5,12 +5,12 @@
 <!-- BADGES/ -->
 [![NPM version](https://img.shields.io/npm/v/@dword-design/chdir.svg)](https://npmjs.org/package/@dword-design/chdir)
 ![Linux macOS Windows compatible](https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue)
-[![Build status](https://img.shields.io/github/workflow/status/dword-design/node-chdir/build)](https://github.com/dword-design/node-chdir/actions)
-[![Coverage status](https://img.shields.io/coveralls/dword-design/node-chdir)](https://coveralls.io/github/dword-design/node-chdir)
-[![Dependency status](https://img.shields.io/david/dword-design/node-chdir)](https://david-dm.org/dword-design/node-chdir)
+[![Build status](https://img.shields.io/github/workflow/status/dword-design/chdir/build)](https://github.com/dword-design/chdir/actions)
+[![Coverage status](https://img.shields.io/coveralls/dword-design/chdir)](https://coveralls.io/github/dword-design/chdir)
+[![Dependency status](https://img.shields.io/david/dword-design/chdir)](https://david-dm.org/dword-design/chdir)
 ![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dword-design/node-chdir)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dword-design/chdir)
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->

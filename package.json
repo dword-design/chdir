@@ -9,7 +9,7 @@
     "popd",
     "directory"
   ],
-  "repository": "dword-design/node-chdir",
+  "repository": "dword-design/chdir",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@dword-design.de>",
   "main": "dist/index.js",
@@ -27,7 +27,8 @@
   "dependencies": {},
   "devDependencies": {
     "@dword-design/base": "^6.20.2",
-    "delay": "^4.3.0"
+    "delay": "^4.3.0",
+    "fs-extra": "^9.0.1"
   },
   "publishConfig": {
     "access": "public"

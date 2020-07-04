@@ -1,22 +1,26 @@
 import delay from 'delay'
+import { mkdir, remove } from 'fs-extra'
+import P from 'path'
 
 import self from '.'
 
 export default {
+  afterEach: () => remove('foo'),
   'async: valid': async () => {
     const cwd = process.cwd()
     let path
-    await self('/tmp', async () => {
+    await self('foo', async () => {
       await delay(10)
       path = process.cwd()
     })
-    expect(path).toEqual('/private/tmp')
+    expect(path).toEqual(P.resolve('foo'))
     expect(process.cwd()).toEqual(cwd)
   },
+  beforeEach: () => mkdir('foo'),
   'error: async': async () => {
     const cwd = process.cwd()
     await expect(
-      self('/tmp', async () => {
+      self('foo', async () => {
         await delay(10)
         throw new Error('foo')
       })
@@ -26,7 +30,7 @@ export default {
   'error: sync': async () => {
     const cwd = process.cwd()
     await expect(() =>
-      self('/tmp', () => {
+      self('foo', () => {
         throw new Error('foo')
       })
     ).rejects.toThrow('foo')
@@ -37,23 +41,23 @@ export default {
     let path
     let path2
     let path3
-    await self('/tmp', async () => {
+    await self('foo', async () => {
       path = process.cwd()
       await self(cwd, () => {
         path2 = process.cwd()
       })
       path3 = process.cwd()
     })
-    expect(path).toEqual('/private/tmp')
+    expect(path).toEqual(P.resolve('foo'))
     expect(path2).toEqual(cwd)
-    expect(path3).toEqual('/private/tmp')
+    expect(path3).toEqual(P.resolve('foo'))
     expect(process.cwd()).toEqual(cwd)
   },
   valid: async () => {
     const cwd = process.cwd()
     let path
-    await self('/tmp', () => (path = process.cwd()))
-    expect(path).toEqual('/private/tmp')
+    await self('foo', () => (path = process.cwd()))
+    expect(path).toEqual(P.resolve('foo'))
     expect(process.cwd()).toEqual(cwd)
   },
 }
