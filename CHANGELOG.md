@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/dword-design/chdir/compare/v1.0.0...v1.0.1) (2020-08-26)
+
+
+### Bug Fixes
+
+* build files ([2b2925a](https://github.com/dword-design/chdir/commit/2b2925afb2c6c751145fb109413dc5183c1f36e3))
+
 # 1.0.0 (2020-07-04)
 
 
