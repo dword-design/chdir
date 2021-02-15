@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/dword-design/chdir/compare/v1.0.2...v1.0.3) (2021-02-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency delay to v5 ([#6](https://github.com/dword-design/chdir/issues/6)) ([67e73b3](https://github.com/dword-design/chdir/commit/67e73b3e1e59fa7d8c8f758871b69863bd7e7619))
+
 ## [1.0.2](https://github.com/dword-design/chdir/compare/v1.0.1...v1.0.2) (2020-12-02)
 
 
