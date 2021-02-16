@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/dword-design/chdir/compare/v1.0.3...v1.0.4) (2021-02-16)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v7 ([#7](https://github.com/dword-design/chdir/issues/7)) ([abbb567](https://github.com/dword-design/chdir/commit/abbb567385443a4e2b171cfb977f31aac60ece5e))
+
 ## [1.0.3](https://github.com/dword-design/chdir/compare/v1.0.2...v1.0.3) (2021-02-15)
 
 
