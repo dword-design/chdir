@@ -1,4 +1,4 @@
-import delay from 'delay'
+import { delay } from '@dword-design/functions'
 import { mkdir, remove } from 'fs-extra'
 import P from 'path'
 
