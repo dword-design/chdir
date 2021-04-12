@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/dword-design/chdir/compare/v1.0.7...v1.0.8) (2021-04-12)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#15](https://github.com/dword-design/chdir/issues/15)) ([f1e67b2](https://github.com/dword-design/chdir/commit/f1e67b2492648f5cfacf6464ff1dd656b51f842c))
+
 ## [1.0.7](https://github.com/dword-design/chdir/compare/v1.0.6...v1.0.7) (2021-03-31)
 
 
