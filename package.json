@@ -1,7 +1,7 @@
 {
   "name": "@dword-design/chdir",
   "version": "1.0.8",
-  "description": "",
+  "description": null,
   "keywords": [
     "cwd",
     "pwd",
@@ -34,5 +34,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "homepage": ""
 }
