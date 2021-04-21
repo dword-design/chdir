@@ -1,3 +1,11 @@
+## [1.0.9](https://github.com/dword-design/chdir/compare/v1.0.8...v1.0.9) (2021-04-21)
+
+
+### Bug Fixes
+
+* update config files ([195fd48](https://github.com/dword-design/chdir/commit/195fd486f1bf743e0ac2f047381cdcd7fd89c469))
+* updated package.json[description] ([#19](https://github.com/dword-design/chdir/issues/19)) ([d8cdb8f](https://github.com/dword-design/chdir/commit/d8cdb8fa6ec95d15f17815b0a2cc189e1a9e49fc))
+
 ## [1.0.8](https://github.com/dword-design/chdir/compare/v1.0.7...v1.0.8) (2021-04-12)
 
 
