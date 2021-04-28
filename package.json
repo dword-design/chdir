@@ -1,7 +1,6 @@
 {
   "name": "@dword-design/chdir",
   "version": "1.0.10",
-  "description": "",
   "keywords": [
     "cwd",
     "pwd",
