@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/dword-design/chdir/compare/v1.0.10...v1.0.11) (2021-04-28)
+
+
+### Bug Fixes
+
+* updated package.json[description] ([#21](https://github.com/dword-design/chdir/issues/21)) ([98559ff](https://github.com/dword-design/chdir/commit/98559ff13ef187237be66f56393c5b2f9d318d20))
+
 ## [1.0.10](https://github.com/dword-design/chdir/compare/v1.0.9...v1.0.10) (2021-04-22)
 
 
