@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/dword-design/chdir/compare/v1.0.11...v2.0.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#24](https://github.com/dword-design/chdir/issues/24)) ([e0ba36f](https://github.com/dword-design/chdir/commit/e0ba36fc40fc1eb9e52bf04fa8c8dac192ec8370))
+
+
+### BREAKING CHANGES
+
+* require Node.js >= 12
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Sebastian Landwehr <info@dword-design.de>
+Co-authored-by: GitHub Actions <actions@github.com>
+
 ## [1.0.11](https://github.com/dword-design/chdir/compare/v1.0.10...v1.0.11) (2021-04-28)
 
 
