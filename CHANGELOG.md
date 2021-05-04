@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/dword-design/chdir/compare/v2.0.0...v2.0.1) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4 ([#25](https://github.com/dword-design/chdir/issues/25)) ([6f780b0](https://github.com/dword-design/chdir/commit/6f780b0ed8a2d222de83a5c64d9d53c0034791e8))
+
 # [2.0.0](https://github.com/dword-design/chdir/compare/v1.0.11...v2.0.0) (2021-05-03)
 
 
