@@ -1,3 +1,10 @@
+## [2.0.4](https://github.com/dword-design/chdir/compare/v2.0.3...v2.0.4) (2021-06-14)
+
+
+### Bug Fixes
+
+* update config files ([cbe1441](https://github.com/dword-design/chdir/commit/cbe144103cc7384723edb06633208afc6d763b83))
+
 ## [2.0.3](https://github.com/dword-design/chdir/compare/v2.0.2...v2.0.3) (2021-05-28)
 
 
