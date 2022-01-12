@@ -1,3 +1,10 @@
+## [2.0.8](https://github.com/dword-design/chdir/compare/v2.0.7...v2.0.8) (2022-01-12)
+
+
+### Bug Fixes
+
+* update config files ([ef71983](https://github.com/dword-design/chdir/commit/ef71983625b95cfe91a52fed6ed263cf7d369824))
+
 ## [2.0.7](https://github.com/dword-design/chdir/compare/v2.0.6...v2.0.7) (2022-01-04)
 
 
