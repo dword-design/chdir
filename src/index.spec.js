@@ -16,6 +16,14 @@ export default {
     expect(path).toEqual(P.resolve('foo'))
     expect(process.cwd()).toEqual(cwd)
   },
+  back: () => {
+    const cwd = process.cwd()
+
+    const back = self('foo')
+    expect(process.cwd()).toEqual(P.join(cwd, 'foo'))
+    back()
+    expect(process.cwd()).toEqual(cwd)
+  },
   beforeEach: () => mkdir('foo'),
   'error: async': async () => {
     const cwd = process.cwd()
