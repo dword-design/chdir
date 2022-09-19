@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/dword-design/chdir/compare/v2.1.0...v2.1.1) (2022-09-19)
+
+
+### Bug Fixes
+
+* make code shorter ([df82da4](https://github.com/dword-design/chdir/commit/df82da47bdfb71236314c290e4df9bc4e2071402))
+
 # [2.1.0](https://github.com/dword-design/chdir/compare/v2.0.8...v2.1.0) (2022-09-19)
 
 
