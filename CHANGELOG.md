@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/dword-design/chdir/compare/v2.0.8...v2.1.0) (2022-09-19)
+
+
+### Features
+
+* return back function ([06979b4](https://github.com/dword-design/chdir/commit/06979b480207a477f5ae6a199251d30029bc1cc3))
+
 ## [2.0.8](https://github.com/dword-design/chdir/compare/v2.0.7...v2.0.8) (2022-01-12)
 
 
