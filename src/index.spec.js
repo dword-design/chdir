@@ -1,11 +1,11 @@
 import { delay } from '@dword-design/functions'
-import { mkdir, remove } from 'fs-extra'
+import fs from 'fs-extra'
 import P from 'path'
 
-import self from '.'
+import self from './index.js'
 
 export default {
-  afterEach: () => remove('foo'),
+  afterEach: () => fs.remove('foo'),
   'async: valid': async () => {
     const cwd = process.cwd()
     let path
@@ -24,7 +24,7 @@ export default {
     back()
     expect(process.cwd()).toEqual(cwd)
   },
-  beforeEach: () => mkdir('foo'),
+  beforeEach: () => fs.mkdir('foo'),
   'error: async': async () => {
     const cwd = process.cwd()
     await expect(
