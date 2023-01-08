@@ -1,3 +1,10 @@
+## [2.1.3](https://github.com/dword-design/chdir/compare/v2.1.2...v2.1.3) (2023-01-08)
+
+
+### Reverts
+
+* Revert "fix: lock file maintenance (#79)" ([406f57a](https://github.com/dword-design/chdir/commit/406f57a8e41e5560e6c52996de59a1d5b8a85d2b)), closes [#79](https://github.com/dword-design/chdir/issues/79)
+
 ## [2.1.2](https://github.com/dword-design/chdir/compare/v2.1.1...v2.1.2) (2023-01-07)
 
 
