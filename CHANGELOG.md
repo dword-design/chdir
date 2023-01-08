@@ -1,3 +1,10 @@
+## [2.1.4](https://github.com/dword-design/chdir/compare/v2.1.3...v2.1.4) (2023-01-08)
+
+
+### Bug Fixes
+
+* trigger release ([93a8443](https://github.com/dword-design/chdir/commit/93a8443660d1284d12f8a8013b721f54e36be7b4))
+
 ## [2.1.3](https://github.com/dword-design/chdir/compare/v2.1.2...v2.1.3) (2023-01-08)
 
 
