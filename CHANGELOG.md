@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/dword-design/chdir/compare/v2.1.4...v3.0.0) (2023-01-08)
+
+
+### Bug Fixes
+
+* esm ([#82](https://github.com/dword-design/chdir/issues/82)) ([51fc993](https://github.com/dword-design/chdir/commit/51fc993b59e9538894f1a27e757d56b53ae502c4))
+
+
+### BREAKING CHANGES
+
+* drop node 12 support, move to ESM
+
 ## [2.1.4](https://github.com/dword-design/chdir/compare/v2.1.3...v2.1.4) (2023-01-08)
 
 
