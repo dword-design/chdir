@@ -1,3 +1,11 @@
+## [3.0.1](https://github.com/dword-design/chdir/compare/v3.0.0...v3.0.1) (2023-04-09)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4.1.7 ([45a2955](https://github.com/dword-design/chdir/commit/45a295566113b9a0900da5b8a2cdb87123e8207c))
+* update dependency fs-extra to v11.1.1 ([60cd32f](https://github.com/dword-design/chdir/commit/60cd32f52877cec30bc98db551080162e9916550))
+
 # [3.0.0](https://github.com/dword-design/chdir/compare/v2.1.4...v3.0.0) (2023-01-08)
 
 
