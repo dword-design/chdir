@@ -31,7 +31,7 @@ export default {
       self('foo', async () => {
         await delay(10)
         throw new Error('foo')
-      })
+      }),
     ).rejects.toThrow('foo')
     expect(process.cwd()).toEqual(cwd)
   },
@@ -40,7 +40,7 @@ export default {
     await expect(() =>
       self('foo', () => {
         throw new Error('foo')
-      })
+      }),
     ).rejects.toThrow('foo')
     expect(process.cwd()).toEqual(cwd)
   },
