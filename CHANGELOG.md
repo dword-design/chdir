@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/dword-design/chdir/compare/v3.0.2...v4.0.0) (2025-08-07)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#90](https://github.com/dword-design/chdir/issues/90)) ([db8f8db](https://github.com/dword-design/chdir/commit/db8f8db526a1e2987162e89933e45efe2090399f))
+
+
+### BREAKING CHANGES
+
+* node.js >= 20
+
 ## [3.0.2](https://github.com/dword-design/chdir/compare/v3.0.1...v3.0.2) (2023-11-28)
 
 
