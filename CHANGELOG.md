@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/dword-design/chdir/compare/v3.0.1...v3.0.2) (2023-11-28)
+
+
+### Bug Fixes
+
+* update dependency fs-extra to v11.2.0 ([da58506](https://github.com/dword-design/chdir/commit/da585063251eda572b6a01ef926a73fa6bfa360e))
+
 ## [3.0.1](https://github.com/dword-design/chdir/compare/v3.0.0...v3.0.1) (2023-04-09)
 
 
