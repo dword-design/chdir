@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/dword-design/chdir/compare/v4.0.0...v5.0.0) (2025-12-15)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v16 ([#118](https://github.com/dword-design/chdir/issues/118)) ([2ef7fc2](https://github.com/dword-design/chdir/commit/2ef7fc29531d8ea215d1ed213d3aa370b96e718b))
+
+
+### BREAKING CHANGES
+
+* node.js >= 22
+
 # [4.0.0](https://github.com/dword-design/chdir/compare/v3.0.2...v4.0.0) (2025-08-07)
 
 
